@@ -11,7 +11,7 @@ Selamat datang di *Leafly Tea*, sebuah website e-commerce untuk pemesanan teh pr
 ## Instalasi
 1. **Clone repositori** ini dengan perintah:
    ```sh
-   git clone https://github.com/username/leafly-tea.git
+   git clone https://github.com/SukaMCD/leafly-tea.git
    ```
 2. **Masuk ke direktori proyek**:
    ```sh
