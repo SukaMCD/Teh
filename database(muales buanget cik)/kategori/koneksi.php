@@ -1,9 +1,9 @@
 <?php
-$koneksi = mysqli_connect("localhost","root","","ecommerce");
 
-//check connection
-if (mysqli_connect_errno()){
-    echo "Koneksi Database Gagal : " . mysqli_connect_error();
+$koneksi = mysqli_connect("localhost","root","","crud");
+
+if (mysqli_connect_errno()) {
+    echo "koneksi Database Gagal : " . mysqli_connect_errno();
 }
 
 ?>
