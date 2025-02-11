@@ -4,9 +4,8 @@ include 'koneksi.php';
 $id = $_POST['id'];
 $nama_kategori = $_POST['nama_kategori'];
 
-mysqli_query($koneksi,"update kategori set nama_kategori='$nama_kategori' where id='$id'");
+mysqli_query($koneksi, "UPDATE kategori SET nama_kategori='$nama_kategori' WHERE id='$id'");
 
-// mengalihkan halaman kembali ke index.php
-header("location:index.php");
-
-?>  
+header("Location: index.php");
+exit();
+?>
